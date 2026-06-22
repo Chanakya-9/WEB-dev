@@ -21,7 +21,8 @@ A browser-based Simon Says memory game built with vanilla JavaScript, HTML and C
 - Restart functionality
 
 ## 🚀 Live Demo
-Open `game.html` directly in any browser — no setup needed!
+[Open `game.html` directly in any browser — no setup needed!](https://chanakya-9.github.io/WEB-dev/)
+
 
 ---
 **Chanakya Navghare** | IIT Kanpur

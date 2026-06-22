@@ -1,76 +1,55 @@
-body {
-            text-align: center;
-            background-color: #000;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        h1,
-        h2 {
-            margin: 20px;
-        }
+body{
+    background-color:#f5f5f5;
+    text-align:center;
+    font-family:Georgia, serif;
+}
 
-        .container {
-            display: grid;
-            grid-template-columns: repeat(2, 150px);
-            grid-gap: 20px;
-            justify-content: center;
-            margin-top: 40px;
-        }
+h1{
+    margin-top:20px;
+    font-size:3rem;
+}
 
-        .btn {
-            width: 150px;
-            height: 150px;
-            border-radius: 20px;
-            cursor: pointer;
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-            transition: transform 0.1s;
-        }
+h2{
+    margin-top:20px;
+    font-size:1.8rem;
+}
 
-        .green {
-            background-color: #00ff00;
-        }
+.container{
+    margin:50px auto;
+    width:500px;
 
-        .red {
-            background-color: #ff0000;
-        }
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:20px;
+}
 
-        .yellow {
-            background-color: #ffff00;
-        }
+.btn{
+    width:220px;
+    height:220px;
 
-        .blue {
-            background-color: #0000ff;
-        }
+    border:8px solid black;
+    border-radius:30px;
+    cursor:pointer;
+}
 
-        .pressed {
-            transform: scale(0.9);
-            opacity: 0.7;
-        }
+.red{
+    background:red;
+}
 
-        #restart-btn {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 18px;
-            background-color: white;
-            color: black;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
-            transition: all 0.3s ease;
-        }
+.green{
+    background:green;
+}
 
-        #restart-btn:hover {
-            background-color: #ddd;
-        }
+.orange{
+    background:orange;
+}
 
-        #final-score {
-            margin-top: 15px;
-            font-size: 20px;
-            color: yellow;
-        }
-
-        .game-over {
-            background-color: #8b0000 !important;
-        }
+.blue{
+    background:blue;
+}

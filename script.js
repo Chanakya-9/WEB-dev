@@ -21,6 +21,11 @@ let game = [];
 const colors = ["red", "green", "orange", "blue"];
 
 document.addEventListener("keydown", begin);
+document.addEventListener("click", function(event) {
+    if (!event.target.classList.contains("btn")) {
+        begin();
+    }
+});
 
 function begin() {
     if (started) return;
@@ -60,7 +65,7 @@ function userInput() {
         }
 
         started = false;
-        ins.innerText = "Press any key to start the game";
+        ins.innerText = "Press any key or Tap to start the game";
 
         return;
     }
